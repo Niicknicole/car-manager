@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# Car Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido com React Native e Expo para gerenciamento de veículos.
 
-## Get started
+---
 
-1. Install dependencies
+## Descrição
 
-   ```bash
-   npm install
-   ```
+O Gerenciador de Veículo é um app que permite o cadastro, visualização, edição e remoção de veículos. O projeto foi desenvolvido em aula afim de aplicar conceitos ensinados sobre desenvolvimento mobile.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Funcionalidades
 
-In the output, you'll find options to open the app in a
+* Cadastro de veículos
+* Listagem de registros
+* Edição de informações
+* Busca por modelo
+* Persistência de dados local
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Conceitos 
 
-## Get a fresh project
+* Operações de CRUD
+* React Hooks
+* Armazenamento local AsyncStorage
 
-When you're ready, run:
+---
+
+## Tech Utilizadas
+
+* React Native
+* Expo
+* TypeScript
+* AsyncStorage
+
+---
+
+## Execução do Projeto
+
+### Pré-requisitos
+
+* Node.js
+* Gerenciador de pacotes
+* Dispositivo móvel com Expo Go ou emulador
+
+---
+
+### Instruções
 
 ```bash
-npm run reset-project
+git clone https://github.com/Niicknicole/Car_Manager
+cd Car_Manager
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
