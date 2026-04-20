@@ -6,7 +6,7 @@ Aplicativo mobile desenvolvido com React Native e Expo para gerenciamento de ve�
 
 ## Descrição
 
-O Gerenciador de Veículo é um app que permite o cadastro, visualização, edição e remoção de veículos. O projeto foi desenvolvido em aula afim de aplicar conceitos ensinados sobre desenvolvimento mobile.
+O Gerenciador de veículo é um app que permite o cadastro, visualização, edição e remoção de veículos. O projeto foi desenvolvido em aula afim de aplicar conceitos ensinados sobre desenvolvimento mobile.
 
 ---
 
